@@ -1,0 +1,78 @@
+/* Reset some default styles */
+body, h1, h2, label, input, select, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+main {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #f1f1f1;
+    margin-top: 20px;
+}
